@@ -10,3 +10,7 @@ Este cambio se ha realizado desde una copia clonada.
 <<Funcionalidades>>.
 
 Estado del proyecto: versión principal y experimental.
+
+
+
+EJEMPLO DE CAMBIO COLABORATIVO
