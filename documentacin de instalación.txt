@@ -1,0 +1,56 @@
+# Guía de instalación
+
+## Requisitos previos
+
+Antes de empezar, asegúrate de tener instalado:
+
+- **JDK 17** o superior (`java -version` para comprobarlo)
+- **Maven 3.9+** (`mvn -version`)
+- **MySQL 8** en ejecución
+- **Git**
+
+## 1. Obtener el código
+
+```bash
+git clone https://github.com/usuario/practica-git-github-repositoriobase
+cd gestor-alumnos
+```
+
+## 2. Crear la base de datos
+
+Accede a MySQL y crea la base de datos:
+
+```sql
+CREATE DATABASE gestor_alumnos CHARACTER SET utf8mb4;
+```
+
+Después, importa el esquema inicial:
+
+```bash
+mysql -u root -p gestor_alumnos < db/schema.sql
+```
+
+## 3. Configurar la conexión
+
+Edita el archivo `src/main/resources/config.properties`:
+
+```properties
+db.url=jdbc:mysql://localhost:3306/gestor_alumnos
+db.user=root
+db.password=tu_contraseña
+```
+
+## 4. Compilar y ejecutar
+
+```bash
+mvn clean package
+java -jar target/gestor-alumnos.jar
+```
+
+## Solución de problemas
+
+| Problema			| Posible causa 	 	   | Solución 			  |
+|-------------------------------|----------------------------------|------------------------------|
+| `Communications link failure` | MySQL no está iniciado 	   | Arranca el servicio de MySQL |
+| `Access denied for user` 	| Usuario o contraseña incorrectos | Revisa `config.properties`   |
+| `Unsupported class version` 	| JDK anterior a la versión 17 	   | Actualiza el JDK 		  |
