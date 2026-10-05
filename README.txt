@@ -1,22 +1,37 @@
-PRÁCTICA 1 - GIT
-Alumno: Yuriy
-Módulo: Desarrollo de Interfaces
+# 🎓 GestorAlumnos
 
-LINEA2
+Aplicación para gestionar el alta, consulta y seguimiento de alumnos de un centro educativo.
 
-Repositorio remoto: GitHub
+## Características
 
-Este cambio se ha realizado desde una copia clonada. 
+- Alta, edición y baja de alumnos
+- Búsqueda por nombre, curso o DNI
+- Gestión de asignaturas y matrículas
+- Registro de notas y cálculo de medias
+- Exportación de listados a CSV
 
+## Requisitos
 
-Funcionalidades
+- JDK 17 o superior
+- MySQL 8 (o la base de datos que uses)
+- Maven 3.9+
 
-Cambio para el pull request, revísalo jose
-=======
-<<Funcionalidades>>.
+## Instalación
 
-Estado del proyecto: versión principal y experimental.
+1. Clona el repositorio:
+```bash
+   git clone https://github.com/usuario/gestor-alumnos.git
+```
+2. Configura la conexión a la base de datos en `config.properties`.
+3. Compila y ejecuta:
+```bash
+   mvn clean package
+   java -jar target/gestor-alumnos.jar
+```
 
+## Uso
 
+Al iniciar la aplicación, accede al menú principal y elige la opción deseada
+(alumnos, asignaturas, notas). Todos los cambios se guardan en la base de datos.
 
-EJEMPLO DE CAMBIO COLABORATIVO ta to bien
+## Estructura del proyecto
