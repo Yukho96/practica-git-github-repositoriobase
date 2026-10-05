@@ -1,0 +1,288 @@
+DOCUMENTACIÓN DE USO
+APLICACIÓN DE GESTIÓN DE ALUMNOS
+
+==================================================
+
+DESCRIPCIÓN DE LA APLICACIÓN
+==================================================
+
+La aplicación de Gestión de Alumnos permite administrar de forma sencilla la información relacionada con los alumnos de un centro educativo.
+
+Entre sus principales funciones se encuentran:
+
+Registrar nuevos alumnos.
+
+Consultar alumnos registrados.
+
+Modificar los datos de un alumno.
+
+Eliminar alumnos.
+
+Buscar alumnos.
+
+Gestionar información académica.
+
+Consultar el listado completo de alumnos.
+
+==================================================
+2. ACCESO A LA APLICACIÓN
+Para utilizar la aplicación, el usuario debe iniciar la aplicación y acceder a la pantalla principal.
+
+Dependiendo de la configuración del sistema, puede ser necesario introducir un usuario y una contraseña.
+
+Una vez iniciado sesión, se mostrará el menú principal desde el que se podrá acceder a las diferentes funcionalidades.
+
+==================================================
+3. MENÚ PRINCIPAL
+El menú principal permite acceder a las diferentes opciones de gestión.
+
+Opciones disponibles:
+
+Listar alumnos
+
+Añadir alumno
+
+Buscar alumno
+
+Modificar alumno
+
+Eliminar alumno
+
+Consultar información
+
+Salir
+
+==================================================
+4. REGISTRAR UN NUEVO ALUMNO
+Para registrar un alumno:
+
+Acceder a la opción "Añadir alumno".
+
+Introducir los datos solicitados.
+
+Comprobar que la información introducida es correcta.
+
+Confirmar el registro.
+
+Los datos de un alumno pueden incluir:
+
+Nombre.
+
+Apellidos.
+
+DNI/NIE.
+
+Fecha de nacimiento.
+
+Dirección.
+
+Teléfono.
+
+Correo electrónico.
+
+Curso.
+
+Grupo.
+
+Información académica.
+
+Una vez confirmado el registro, el alumno quedará almacenado en el sistema.
+
+==================================================
+5. CONSULTAR ALUMNOS
+Para consultar los alumnos registrados:
+
+Acceder a "Listar alumnos".
+
+La aplicación mostrará los alumnos almacenados.
+
+El usuario podrá consultar la información disponible de cada alumno.
+
+La información puede mostrarse en forma de lista o tabla, dependiendo de la interfaz de la aplicación.
+
+==================================================
+6. BUSCAR UN ALUMNO
+La aplicación permite localizar rápidamente un alumno.
+
+Para realizar una búsqueda:
+
+Acceder a la opción "Buscar alumno".
+
+Introducir un criterio de búsqueda.
+
+Ejecutar la búsqueda.
+
+Revisar los resultados obtenidos.
+
+Se pueden utilizar diferentes criterios, como:
+
+Nombre.
+
+Apellidos.
+
+DNI/NIE.
+
+Curso.
+
+Grupo.
+
+Correo electrónico.
+
+Si no se encuentra ningún resultado, la aplicación mostrará un mensaje indicando que no existen alumnos que coincidan con los criterios introducidos.
+
+==================================================
+7. MODIFICAR LOS DATOS DE UN ALUMNO
+Para modificar la información de un alumno:
+
+Buscar o seleccionar el alumno.
+
+Acceder a la opción "Modificar".
+
+Cambiar los datos necesarios.
+
+Revisar la información.
+
+Guardar los cambios.
+
+Los cambios quedarán almacenados en el sistema una vez confirmada la operación.
+
+==================================================
+8. ELIMINAR UN ALUMNO
+Para eliminar un alumno:
+
+Buscar o seleccionar el alumno.
+
+Seleccionar la opción "Eliminar".
+
+La aplicación solicitará confirmación.
+
+Confirmar la eliminación.
+
+IMPORTANTE:
+
+La eliminación de un alumno puede ser una operación irreversible. Antes de confirmar, se recomienda comprobar que se ha seleccionado el alumno correcto.
+
+==================================================
+9. VALIDACIÓN DE DATOS
+La aplicación debe comprobar que los datos introducidos son correctos antes de almacenarlos.
+
+Algunos ejemplos de validaciones:
+
+Los campos obligatorios no pueden quedar vacíos.
+
+El correo electrónico debe tener un formato válido.
+
+El DNI/NIE debe tener un formato correcto.
+
+Los datos numéricos deben contener valores válidos.
+
+Las fechas deben tener un formato correcto.
+
+No debería permitirse registrar dos alumnos con el mismo identificador.
+
+==================================================
+10. MENSAJES DEL SISTEMA
+La aplicación puede mostrar diferentes mensajes para informar al usuario.
+
+Ejemplos:
+
+"Alumno registrado correctamente."
+
+"Los datos se han actualizado correctamente."
+
+"Alumno eliminado correctamente."
+
+"No se ha encontrado ningún alumno."
+
+"Debe completar los campos obligatorios."
+
+"Se ha producido un error. Inténtelo de nuevo."
+
+==================================================
+11. RECOMENDACIONES DE USO
+Para utilizar correctamente la aplicación se recomienda:
+
+Comprobar los datos antes de guardarlos.
+
+Utilizar información real y actualizada.
+
+No compartir las credenciales de acceso.
+
+Confirmar las operaciones de eliminación.
+
+Mantener actualizada la información de los alumnos.
+
+Realizar copias de seguridad periódicas si la aplicación dispone de esta funcionalidad.
+
+==================================================
+12. SEGURIDAD Y PRIVACIDAD
+La información almacenada puede contener datos personales de los alumnos.
+
+Por este motivo:
+
+El acceso debe estar limitado a usuarios autorizados.
+
+Las contraseñas deben mantenerse privadas.
+
+No se deben compartir datos personales sin autorización.
+
+Se deben realizar copias de seguridad de forma segura.
+
+Los datos deben gestionarse de acuerdo con la normativa de protección de datos aplicable.
+
+==================================================
+13. CIERRE DE LA APLICACIÓN
+Para salir de la aplicación:
+
+Guardar cualquier cambio pendiente.
+
+Seleccionar la opción "Salir".
+
+Confirmar el cierre si la aplicación lo solicita.
+
+Se recomienda cerrar correctamente la aplicación para evitar la pérdida de información.
+
+==================================================
+14. RESOLUCIÓN DE PROBLEMAS
+PROBLEMA:
+No se puede registrar un alumno.
+
+SOLUCIÓN:
+Comprobar que todos los campos obligatorios están completos y que los datos introducidos tienen un formato válido.
+
+PROBLEMA:
+No aparece un alumno en la búsqueda.
+
+SOLUCIÓN:
+Comprobar los criterios de búsqueda y verificar que el alumno está registrado en el sistema.
+
+PROBLEMA:
+No se pueden guardar los cambios.
+
+SOLUCIÓN:
+Comprobar que todos los datos son válidos y que existe conexión con la base de datos, si la aplicación utiliza una.
+
+PROBLEMA:
+La aplicación muestra un error.
+
+SOLUCIÓN:
+Anotar el mensaje mostrado, reiniciar la aplicación y volver a realizar la operación. Si el problema continúa, contactar con el administrador del sistema.
+
+==================================================
+15. SOPORTE
+En caso de problemas que no puedan resolverse mediante esta documentación, contactar con el administrador o responsable de la aplicación.
+
+Al solicitar soporte, se recomienda proporcionar:
+
+Descripción del problema.
+
+Operación que se estaba realizando.
+
+Mensaje de error mostrado.
+
+Fecha y hora aproximada del problema.
+
+Usuario que estaba utilizando la aplicación.
+
+==================================================
+FIN DE LA DOCUMENTACIÓN
