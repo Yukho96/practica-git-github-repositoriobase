@@ -20,3 +20,5 @@ Estado del proyecto: versión principal y experimental.
 
 
 EJEMPLO DE CAMBIO COLABORATIVO ta to bien
+
+Practica -6 mejorar el README
