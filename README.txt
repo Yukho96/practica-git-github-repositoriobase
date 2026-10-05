@@ -8,3 +8,5 @@ Repositorio remoto: GitHub
 
 Este cambio se ha realizado desde una copia clonada. 
 <<Funcionalidades>>.
+
+Estado del proyecto: versión principal y experimental.
