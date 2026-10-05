@@ -1,0 +1,1 @@
+Me gustaría desarrollar una aplicación que ayude a la automatización y al seguimiento de reservas de un restaurante.
